@@ -1,0 +1,501 @@
+
+.mobile_framework{
+    position: relative;
+    width: 360px;
+    height: 890px;
+    
+    background: #FFFFFF;
+
+}
+
+.header{
+    position: absolute;
+    width: 360px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+}
+.menu_burger{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    left: 4.44%;
+    right: 90%;
+    top: 30.56%;
+    bottom: 48.61%;
+
+    background-color: transparent;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+#burger{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    background-size: contain;
+    border: none;
+   
+}
+#burger:hover{
+    cursor: grab;
+}
+.search{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 52px;
+    top: 20px;
+    background-size: contain;
+
+
+}
+#search{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+
+    border: none;
+    
+}
+#search:hover{
+    cursor: grab;
+}
+.aurora{
+    position: absolute;
+    left: 34%;
+    right: 35.56%;
+    top: 20%;
+    bottom: 44.15%;
+
+    
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08); */
+}
+#aurora_text{
+    width: 104px;
+    height: 20.21px;
+   
+
+}
+
+.basket_group{
+    position: absolute;
+    left: 82.78%;
+    right: 4.44%;
+    top: 22.22%;
+    bottom: 44.44%;
+
+}
+#basket_img{
+    position: absolute;
+    left: 0%;
+    right: 65.22%;
+    top: 0%;
+    bottom: 0%;
+
+    /* background: #FFFFFF; */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+#group99{
+    position: absolute;
+    left: 52.17%;
+    right: 0%;
+    top: 8.33%;
+    bottom: 0%;
+}
+.bg{
+    width: 360px;
+    height: 72px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.389314) 0%, rgba(21, 21, 21, 0.209901) 33.39%, rgba(0, 0, 0, 0.0001) 95.04%);
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+#bc_img{
+    position: absolute;
+    width: 360px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.bottom_framework{
+    position: absolute;
+    width: 360px;
+    height: 410px;
+    left: 0px;
+    top: 480px;
+
+}
+
+#bottom_frame{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.top_rect{
+    width: 360px;
+    height: 130px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 68.29%;
+
+    background: #FFFFFF;
+}
+#top_text{
+    position: absolute;
+height: 36px;
+left: 4.44%;
+right: 4.44%;
+top: calc(50% - 36px/2 - 163px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.872727px;
+
+color: #000000;
+
+}
+.search2{
+    width: 328px;
+    height: 32px;
+    position: absolute;
+    left: 4.44%;
+    right: 4.44%;
+    top: 18.05%;
+    bottom: 74.15%;
+}
+#search_text{
+
+    width: 208px;
+    position: absolute;
+    left: 0%;
+    right: 31.71%;
+    top: 0%;
+    bottom: 0%;
+    padding-left: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    outline: none;
+
+    color: #4A4A4A;
+}
+#search_rect{
+    width: 224px;
+    height: 32px;
+    position: absolute;
+    left: 0%;
+    right: 31.71%;
+    top: 0%;
+    bottom: 0%;
+
+    border: 1px solid #E1E0E1;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.button_area{
+    width: 96px;
+    height: 32px;
+    position: absolute;
+    left: 70.73%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+.button{
+    width: 96px;
+    height: 32px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: none;
+}
+#button_text{
+    position: absolute;
+    height: 20px;
+    left: 22.56%;
+    right: 22.23%;
+    top: calc(50% - 20px/2 - 1px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#button_area{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #000000;
+    border-radius: 3px;
+}
+
+
+
+
+.bottom_rect{
+    width: 360px;
+    height: 280px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 31.71%;
+    bottom: 0%;
+    
+    background: #F7F7F7;
+}
+.group1{
+    width: 328px;
+    height: 33px;
+    position: absolute;
+    left: 4.44%;
+    right: 4.44%;
+    top: 35.61%;
+    bottom: 56.34%;
+}
+#line1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 95.45%;
+    bottom: 1.52%;
+
+    border: 1px solid #E1E0E1;
+}
+#text1{
+    width: 164px;
+    position: absolute;
+    height: 19px;
+    left: 4.88%;
+    right: 73.78%;
+    top: calc(50% - 19px/2 - 7px);
+    
+    font-family: CormorantGaramond;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 1.16364px;
+}
+#text1:hover{
+    text-decoration: underline;
+}
+.group2{
+    width: 328px;
+    height: 33px;
+    position: absolute;
+    left: 4.44%;
+    right: 4.44%;
+    top: 46.59%;
+    bottom: 45.37%;
+}
+#line2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 95.45%;
+    bottom: 1.52%;
+    border: 1px solid #E1E0E1;
+}
+#text2{
+    position: absolute;
+    height: 19px;
+    left: 4.88%;
+    right: 71.34%;
+    top: calc(50% - 19px/2 - 7px);
+
+    font-family: CormorantGaramond;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 1.16364px;
+
+    color: #000000;
+}
+#text2:hover{
+    text-decoration: underline;
+}
+.group3{
+    width: 328px;
+    height: 33px;
+    position: absolute;
+    left: 4.44%;
+    right: 4.44%;
+    top: 57.56%;
+    bottom: 34.39%;
+}
+#line3{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 95.45%;
+    bottom: 1.52%;
+
+    border: 1px solid #E1E0E1;
+}
+#text3{
+    position: absolute;
+    height: 19px;
+    left: 4.88%;
+    right: 84.45%;
+    top: calc(50% - 19px/2 - 7px);
+    
+    font-family: CormorantGaramond;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 1.16364px;
+    color: #000000;
+}
+#text3:hover{
+    text-decoration: underline;
+}
+.group4{
+    width: 328px;
+    height: 33px;
+    position: absolute;
+    left: 4.44%;
+    right: 4.44%;
+    top: 68.54%;
+    bottom: 23.41%;
+    
+}
+#line4{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 95.45%;
+    bottom: 1.52%;
+
+    border: 1px solid #E1E0E1;
+}
+#chevron{
+    width: 7px;
+    height: 15px;
+    position: absolute;
+    left: 92.99%;
+    right: 3.35%;
+}
+#chevron:hover{
+    border: 1px solid black;
+}
+#text4{
+    width: 164px;
+    height: 19px;
+    position: absolute;
+    left: 4.88%;
+    right: 48.17%;
+    top: calc(50% - 19px/2 - 7px);
+
+    font-family: CormorantGaramond;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 1.16364px;
+
+    color: #000000;
+}
+#text4:hover{
+    text-decoration: underline;
+}
+.group5{
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 88px;
+    top: 338px;
+}
+#insta{
+    position: absolute;
+    left: 24.44%;
+    right: 70.28%;
+    top: 82.44%;
+    bottom: 12.93%;
+
+}
+#twitter{
+    position: absolute;
+    left: 36.39%;
+    right: 58.06%;
+    top: 82.93%;
+    bottom: 13.17%;
+}
+#snapchat{
+    position: absolute;
+    left: 48.61%;
+    right: 46.11%;
+    top: 82.44%;
+    bottom: 13.17%;
+
+}
+#facebook{
+    position: absolute;
+    left: 60.56%;
+    right: 36.67%;
+    top: 82.44%;
+    bottom: 12.93%;
+}
+#youtube{
+    position: absolute;
+    left: 70%;
+    right: 24.17%;
+    top: 82.93%;
+    bottom: 13.41%;
+}
+#insta:hover,
+#twitter:hover,
+#snapchat:hover,
+#facebook:hover,
+#youtube:hover{
+    cursor: grab;
+}
+
+.copyright{
+    position: absolute;
+    height: 14px;
+    left: 20%;
+    right: 19.72%;
+    top: calc(50% - 14px/2 + 175px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 13px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #000000;
+}
